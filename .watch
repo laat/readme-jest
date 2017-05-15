@@ -1,0 +1,10 @@
+{
+  "build": [{
+    "patterns": ["src/**/*.js"],
+    "command": "yarn run build:js -- --only",
+    "appendFiles": true
+  }, {
+    "patterns": ["src/**/*.js"],
+    "command": "yarn run build:flow"
+  }]
+}

@@ -1,0 +1,11 @@
+{
+  "plugins": ["transform-flow-strip-types"],
+  "env": {
+    "node": {
+      "presets": [["env", {"targets": { "node": 7.4 } }]]
+    },
+    "test": {
+      "presets": [["env", {"targets": { "node": 7.4 } }]]
+    }
+  }
+}
