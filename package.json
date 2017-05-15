@@ -1,5 +1,5 @@
 {
-  "name": "@laat/readme-jest",
+  "name": "laat-readme-jest",
   "version": "0.0.0",
   "description": "Execute code blocks with jest",
   "main": "lib/index.js",
