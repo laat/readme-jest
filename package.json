@@ -19,8 +19,8 @@
   "scripts": {
     "clean": "rimraf lib",
     "test": "jest",
+    "watch": "nurture build",
     "build:js": "babel --ignore '**/*test.js' -s -d lib src",
-    "build:flow": "flow-copy-source -v -i '**/*test.js' src lib",
     "build": "npm-run-all clean -p build:*",
     "prepublish": "npm-run-all clean build"
   },
@@ -29,10 +29,9 @@
     "babel-jest": "^20.0.1",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.4.0",
-    "flow-bin": "^0.46.0",
-    "flow-copy-source": "^1.1.0",
     "jest": "^20.0.1",
     "npm-run-all": "^4.0.0",
+    "nurture": "^2.2.4",
     "readme-assert": "^5.0.2",
     "rimraf": "^2.5.4"
   },
