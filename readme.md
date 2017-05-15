@@ -31,8 +31,6 @@ module.exports = {
   ],
 };
 ```
-script:s
-  - 'npm run lint'
 
 ## basic
 ```javascript test
