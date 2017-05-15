@@ -1,6 +1,6 @@
 {
   "name": "laat-readme-jest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Execute code blocks with jest",
   "main": "lib/index.js",
   "author": {
